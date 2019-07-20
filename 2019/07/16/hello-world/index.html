@@ -260,8 +260,14 @@
     </div>
 	<script type="text/javascript">
 		document.getElementById('btn_donate').onclick = function(){
-			document.getElementById('donate_board').style.display = 'block';
-			document.getElementById('donate_guide').style.display = 'block';
+		
+			if( document.getElementById("donate_guide").css("display")==='none') {
+				document.getElementById('donate_guide').style.display = 'block';
+			}
+			
+			if( document.getElementById("donate_guide").css("display")==='block') {
+				document.getElementById('donate_guide').style.display = 'none';
+			}
 		}
 	</script>
 </div>
