@@ -260,7 +260,7 @@
 	<script type="text/javascript">
 		document.getElementById('btn_donate').onclick = function(){
 			
-			if( document.getElementById("donate_guide").style.display == 'none') {
+			if( document.getElementById("donate_guide").style.display !== 'block') {
 				document.getElementById('donate_guide').style.display = 'block';
 				document.getElementById('donate_board').style.display = 'block';
 				console.log("block");
