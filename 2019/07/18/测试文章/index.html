@@ -196,17 +196,20 @@
       </div>  
 	<div id="donate_guide" class="donate_bar center">
 		<!-- 支付宝打赏图案 -->
-		<img src="http://img.zcool.cn/community/04263756495cc400000190ef62463a.jpg@750w_750h_1c_1e_1o_100sh.jpg" alt="支付宝打赏">
+		<img src="http://img.zcool.cn/community/04263756495cc400000190ef62463a.jpg@750w_750h_1c_1e_1o_100sh.jpg" alt="支付宝打赏"> 
 		<!-- 微信打赏图案 -->
-		<img src="http://img.zcool.cn/community/04263756495cc400000190ef62463a.jpg@750w_750h_1c_1e_1o_100sh.jpg" alt="微信打赏">
+		<img src="http://img.zcool.cn/community/04263756495cc400000190ef62463a.jpg@750w_750h_1c_1e_1o_100sh.jpg" alt="微信打赏">  
     </div>
 	<script type="text/javascript">
 		document.getElementById('btn_donate').onclick = function(){
 			
 			if( document.getElementById("donate_guide").style.display == 'none') {
 				document.getElementById('donate_guide').style.display = 'block';
+				document.getElementById('donate_board').style.display = 'block';
+				console.log("block");
 			} else if( document.getElementById("donate_guide").style.display == 'block') {
 				document.getElementById('donate_guide').style.display = 'none';
+				console.log("none");
 			}
 		}
 	</script>
