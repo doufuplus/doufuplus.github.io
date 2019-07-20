@@ -482,12 +482,6 @@ header label {
 .copyright {
   font-size: 14px;
 }
-.customFooter {
-  height: 4rem;
-  width: 100%;
-  text-align: center;
-  padding-top: 2em;
-}
 .pagination {
   display: flex;
   flex-direction: row;
