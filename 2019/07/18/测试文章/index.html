@@ -206,10 +206,14 @@
 		
 			if( document.getElementById("donate_guide").style.display == 'none') {
 				document.getElementById('donate_guide').style.display = 'block';
+				document.getElementById('donate_board').style.display = 'block';
+				console.log("block");
 			}
 			
 			if( document.getElementById("donate_guide").style.display == 'block') {
 				document.getElementById('donate_guide').style.display = 'none';
+				document.getElementById('donate_board').style.display = 'none';
+				console.log("none");
 			}
 		}
 	</script>
